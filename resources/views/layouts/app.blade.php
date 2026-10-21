@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPORT NEWS - Update Sports Terbaru</title>
+    <title>SPORT CENTER - Update Sports Terbaru</title>
     
     <!-- Google Fonts: Montserrat -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
@@ -95,7 +95,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('sport.home') }}">SPORT <span>NEWS</span></a>
+            <a class="navbar-brand" href="{{ route('sport.home') }}">SPORT <span>CENTER</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -128,9 +128,9 @@
         <div class="container">
             <div class="row g-4 align-items-center py-2">
                 <div class="col-md-5">
-                    <h5 class="fw-bold text-white mb-2" style="font-style: italic; letter-spacing: -0.5px;">SPORT <span style="color: #F56300;">NEWS</span></h5>
+                    <h5 class="fw-bold text-white mb-2" style="font-style: italic; letter-spacing: -0.5px;">SPORT <span style="color: #F56300;">CENTER</span></h5>
                     <p class="small text-secondary mb-0" style="max-width: 380px; line-height: 1.6;">
-                        Portal berita & katalog olahraga terpercaya untuk mendukung aktivitas fisik, gaya hidup sehat, dan kebugaran tubuh harianmu.
+                        Join Modern Sport Activities Untuk Kualitas Hidup Sehat Mu!
                     </p>
                 </div>
 
@@ -138,14 +138,12 @@
                     <h6 class="fw-bold text-white mb-3">Hubungi Kami</h6>
                     <div class="d-flex flex-column gap-2 small">
                         <div class="d-flex align-items-center gap-2">
-                            <span class="text-warning">✉</span>
                             <span class="text-secondary">Email:</span>
-                            <a href="mailto:contact@sportnews.com" class="text-white text-decoration-none fw-semibold">contact@sportnews.com</a>
+                            <a href="mailto:contact@sportnews.com" class="text-white text-decoration-none fw-semibold">contact@sportcenter.com</a>
                         </div>
                         <div class="d-flex align-items-center gap-2">
-                            <span class="text-warning">📸</span>
                             <span class="text-secondary">Instagram:</span>
-                            <a href="https://instagram.com" target="_blank" class="text-white text-decoration-none fw-semibold">@sportnews.id</a>
+                            <a href="https://instagram.com" target="_blank" class="text-white text-decoration-none fw-semibold">@sportcenter.id</a>
                         </div>
                     </div>
                 </div>
@@ -160,7 +158,7 @@
             <hr class="border-secondary opacity-25 my-4">
 
             <div class="text-center small text-secondary">
-                &copy; 2026 <strong>SPORT NEWS</strong>. All rights reserved.
+                &copy; 2026 <strong>SPORT CENTER</strong>. All rights reserved.
             </div>
         </div>
     </footer>

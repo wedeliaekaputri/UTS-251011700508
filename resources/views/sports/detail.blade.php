@@ -2,14 +2,6 @@
 
 @section('content')
 
-<div class="container my-5">
-    <!-- Tombol Kembali -->
-    <div class="mb-4">
-        <a href="{{ route('sport.sports-list') }}" class="text-decoration-none fw-bold text-dark d-inline-flex align-items-center gap-2">
-            &larr; Kembali ke Sports List
-        </a>
-    </div>
-
     <div class="bg-white rounded-5 p-4 p-md-5 border shadow-sm">
         <div class="row g-5 align-items-center">
             
@@ -38,17 +30,17 @@
 
                 <div class="d-flex flex-column gap-3 border-top pt-4">
                     <div class="d-flex align-items-center gap-3">
-                        <span class="fw-bold text-dark" style="min-width: 150px;">🌍 Asal Negara:</span>
+                        <span class="fw-bold text-dark" style="min-width: 150px;">Asal Negara:</span>
                         <span class="text-muted">{{ $sport->origin_country }}</span>
                     </div>
 
                     <div class="d-flex align-items-center gap-3">
-                        <span class="fw-bold text-dark" style="min-width: 150px;">🛠 Perlengkapan:</span>
+                        <span class="fw-bold text-dark" style="min-width: 150px;">Perlengkapan:</span>
                         <span class="text-muted">{{ $sport->equipment }}</span>
                     </div>
 
                     <div class="d-flex align-items-center gap-3">
-                        <span class="fw-bold text-dark" style="min-width: 150px;">📜 Aturan / Format:</span>
+                        <span class="fw-bold text-dark" style="min-width: 150px;">Aturan / Format:</span>
                         <span class="text-muted">{{ $sport->rules }}</span>
                     </div>
                 </div>
