@@ -2,7 +2,6 @@
 
 @section('content')
 
-<!-- 1. Banner Poster Utama (Konsep Modern Sport Activity & Event) -->
 <div class="container my-4">
     <div class="position-relative rounded-5 overflow-hidden shadow-lg text-white d-flex align-items-center justify-content-center text-center" style="min-height: 460px; background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.75)), url('{{ asset('assets/images/sports.jpg') }}') center/cover no-repeat;" onerror="this.style.backgroundColor='#0F172A';">
         <div class="p-5 z-1 w-100">
@@ -18,7 +17,7 @@
     </div>
 </div>
 
-<!-- 3. Section Portal Berita Utama (Diklik Muncul Pop-Up Modal Berita Detail) -->
+
 <div class="container my-5 py-4">
     <div class="mb-4">
         <h2 class="fw-bold display-6 mb-1" style="color: #F56300; font-style: italic;">#BERITA OLAHRAGA</h2>
@@ -26,7 +25,7 @@
     </div>
 
     <div class="row g-4">
-        <!-- Berita 1: Karisma Evi (be1.jpg) -->
+   
         <div class="col-md-4">
             <div class="card border-0 bg-transparent h-100 role-button" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modalBerita1">
                 <div class="rounded-4 overflow-hidden mb-3 shadow-sm" style="height: 220px;">
@@ -50,7 +49,7 @@
             </div>
         </div>
 
-        <!-- Berita 2: Fadli Imammudin (be2.jpg) -->
+     
         <div class="col-md-4">
             <div class="card border-0 bg-transparent h-100 role-button" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modalBerita2">
                 <div class="rounded-4 overflow-hidden mb-3 shadow-sm" style="height: 220px;">
@@ -74,7 +73,6 @@
             </div>
         </div>
 
-        <!-- Berita 3: 3 Emas Boccia (be3.jpg) -->
         <div class="col-md-4">
             <div class="card border-0 bg-transparent h-100 role-button" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#modalBerita3">
                 <div class="rounded-4 overflow-hidden mb-3 shadow-sm" style="height: 220px;">
@@ -100,7 +98,7 @@
     </div>
 </div>
 
-<!-- MODAL DETAIL BERITA 1 -->
+
 <div class="modal fade" id="modalBerita1" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content rounded-5 border-0 shadow">
@@ -121,7 +119,7 @@
     </div>
 </div>
 
-<!-- MODAL DETAIL BERITA 2 -->
+
 <div class="modal fade" id="modalBerita2" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content rounded-5 border-0 shadow">
@@ -142,7 +140,7 @@
     </div>
 </div>
 
-<!-- MODAL DETAIL BERITA 3 -->
+
 <div class="modal fade" id="modalBerita3" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content rounded-5 border-0 shadow">
@@ -163,7 +161,7 @@
     </div>
 </div>
 
-<!-- 4. Section Update Olahraga Viral 2026 -->
+
 <div class="container my-5 py-4">
     <div class="d-flex justify-content-between align-items-end mb-4">
         <div>
@@ -211,14 +209,14 @@
     </div>
 </div>
 
-<!-- 5. Big Heading Section -->
+
 <div class="container my-5 text-center py-5">
     <h1 class="display-3 fw-bold text-dark" style="letter-spacing: -1.5px;">
         <span style="color: #F56300; font-style: italic;">Sehat</span> bermula <br> dengan aktif bergerak.
     </h1>
 </div>
 
-<!-- 6. Section Tips Olahraga di Rumah -->
+
 <div class="w-100 py-5 my-5 position-relative overflow-hidden" style="background-color: #FBF9F6; min-height: 580px;">
     <div class="container-fluid px-lg-5 position-relative">
         <div class="row align-items-center g-4">
@@ -258,7 +256,7 @@
     </div>
 </div>
 
-<!-- 7. What Our Users Have To Say (Review Setelah Daftar Modern Sport Activity) -->
+
 <div class="container my-5 py-4">
     <div class="text-center mb-5">
         <h2 class="fw-bold display-6" style="font-style: italic; letter-spacing: -0.5px;">What our users <span style="color: #F56300;">have to say</span></h2>

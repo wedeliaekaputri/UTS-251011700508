@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!-- Header Banner -->
+
 <div class="container my-4">
     <div class="position-relative rounded-5 overflow-hidden shadow-sm text-white d-flex align-items-center justify-content-center text-center p-5" style="min-height: 220px; background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);">
         <div class="z-1">
@@ -15,7 +15,7 @@
     </div>
 </div>
 
-<!-- Catalog & Registration List -->
+
 <div class="container my-5 py-2">
     <div class="row g-4">
         @foreach($sports as $sport)
@@ -52,7 +52,7 @@
                 </div>
             </div>
 
-            <!-- MODAL FORM PENDAFTARAN KEGIATAN OLAHRAGA -->
+           
             <div class="modal fade" id="modalDaftar{{ $sport->id }}" tabindex="-1" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content rounded-5 border-0 shadow">

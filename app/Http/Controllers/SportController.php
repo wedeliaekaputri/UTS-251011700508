@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Sport; /* <-- INI YANG KURANG DAN BIKIN ERROR */
+use App\Models\Sport; 
 use Illuminate\Http\Request;
 
 class SportController extends Controller

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPORT CENTER - Update Sports Terbaru</title>
     
-    <!-- Google Fonts: Montserrat -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -92,7 +91,7 @@
 </head>
 <body>
 
-    <!-- Navbar -->
+   
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand" href="{{ route('sport.home') }}">SPORT <span>CENTER</span></a>
@@ -118,12 +117,12 @@
         </div>
     </nav>
 
-    <!-- Main Content -->
+   
     <main>
         @yield('content')
     </main>
 
-    <!-- Footer -->
+  
     <footer>
         <div class="container">
             <div class="row g-4 align-items-center py-2">

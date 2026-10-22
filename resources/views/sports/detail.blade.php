@@ -5,7 +5,7 @@
     <div class="bg-white rounded-5 p-4 p-md-5 border shadow-sm">
         <div class="row g-5 align-items-center">
             
-            <!-- Kolom Kiri: Gambar Ukuran Besar -->
+          
             <div class="col-lg-6">
                 <div class="rounded-4 overflow-hidden shadow-sm bg-light" style="max-height: 400px;">
                     <img src="{{ asset('assets/images/' . ($sport->image ?? 'default.jpg')) }}" 
@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <!-- Kolom Kanan: Informasi Lengkap -->
+        
             <div class="col-lg-6">
                 <span class="badge bg-warning text-dark fw-bold px-3 py-2 rounded-pill mb-3 text-uppercase">
                     {{ $sport->category }}

@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!-- 1. Header Section Wellness (Satu Kategori & Tidak Terpotong) -->
+
 <div class="container my-4">
     <div class="position-relative rounded-5 overflow-hidden shadow-sm text-white d-flex align-items-center justify-content-center text-center p-4 p-md-5" style="min-height: 220px; background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);">
         <div class="z-1">
@@ -15,7 +15,7 @@
     </div>
 </div>
 
-<!-- 2. Section Khusus Pemula (Beda Total dari Home) -->
+
 <div class="container my-5 py-3">
     <div class="text-center mb-5">
         <span class="badge rounded-pill px-3 py-2 fw-bold text-white mb-2" style="background-color: #F56300;">PANDUAN PEMULA</span>
@@ -24,7 +24,7 @@
     </div>
 
     <div class="row g-4">
-        <!-- Poin 1 -->
+       
         <div class="col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center bg-white">
                 <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-primary bg-opacity-10 mb-3 mx-auto" style="width: 60px; height: 60px;">
@@ -37,7 +37,7 @@
             </div>
         </div>
 
-        <!-- Poin 2 -->
+    
         <div class="col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center bg-white">
                 <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-warning bg-opacity-10 mb-3 mx-auto" style="width: 60px; height: 60px;">
@@ -50,7 +50,7 @@
             </div>
         </div>
 
-        <!-- Poin 3 -->
+       
         <div class="col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center bg-white">
                 <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-success bg-opacity-10 mb-3 mx-auto" style="width: 60px; height: 60px;">
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <!-- Poin 4 -->
+      
         <div class="col-md-6 col-lg-3">
             <div class="card h-100 border-0 shadow-sm rounded-4 p-4 text-center bg-white">
                 <div class="d-inline-flex align-items-center justify-content-center rounded-circle bg-danger bg-opacity-10 mb-3 mx-auto" style="width: 60px; height: 60px;">
@@ -78,7 +78,7 @@
     </div>
 </div>
 
-<!-- 3. Section Panduan Nutrisi & Kalkulator Air -->
+
 <div class="w-100 py-5 my-5 bg-white border-top border-bottom">
     <div class="container">
         <div class="row align-items-center g-5">
@@ -117,7 +117,7 @@
                 </div>
             </div>
 
-            <!-- Kalkulator Air Harian -->
+          
             <div class="col-lg-6">
                 <div class="p-4 p-md-5 rounded-5 border shadow-sm" style="background-color: #F8FAFC;">
                     <div class="d-flex align-items-center gap-2 mb-3">

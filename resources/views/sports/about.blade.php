@@ -2,7 +2,7 @@
 
 @section('content')
 
-<!-- 1. Banner Header Utama (Full-Width Strip Minimalis) -->
+
 <div class="w-100 py-5 text-white position-relative overflow-hidden" style="background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);">
     <div class="container py-5 text-center">
         <span class="badge bg-warning text-dark fw-bold px-3 py-2 rounded-pill mb-3 text-uppercase" style="letter-spacing: 1px;">ABOUT SPORT CENTER</span>
@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<!-- 2. Section Misi Platform (Desain Clean Tanpa Box Melengkung) -->
+
 <div class="w-100 py-5 bg-white border-bottom">
     <div class="container py-4">
         <div class="row align-items-center g-5">
@@ -47,7 +47,7 @@
     </div>
 </div>
 
-<!-- 3. Section Persyaratan, DP, Jadwal, & Biaya Latihan (4 KOLOM) -->
+
 <div class="w-100 py-5 border-bottom" style="background-color: #FFFFFF;">
     <div class="container py-3">
         <div class="text-center mb-5">
@@ -57,7 +57,7 @@
         </div>
 
         <div class="row g-4">
-            <!-- Kolom 1: Syarat Umum Pendaftaran -->
+           
             <div class="col-lg-3 col-md-6">
                 <div class="border-start border-4 ps-3 h-100" style="border-color: #F56300 !important;">
                     <h5 class="fw-bold text-dark mb-3">1. Syarat Pendaftaran</h5>
@@ -70,7 +70,7 @@
                 </div>
             </div>
 
-            <!-- Kolom 2: Ketentuan Uang Muka (DP) -->
+
             <div class="col-lg-3 col-md-6">
                 <div class="border-start border-4 border-dark ps-3 h-100">
                     <h5 class="fw-bold text-dark mb-3">2. Ketentuan DP</h5>
@@ -83,7 +83,7 @@
                 </div>
             </div>
 
-            <!-- Kolom 3: Jadwal Rutin Kegiatan -->
+       
             <div class="col-lg-3 col-md-6">
                 <div class="border-start border-4 border-warning ps-3 h-100">
                     <h5 class="fw-bold text-dark mb-3">3. Jadwal Rutin</h5>
@@ -96,7 +96,7 @@
                 </div>
             </div>
 
-            <!-- Kolom 4: Biaya Latihan (Yoga/Pilates & Per-Event) -->
+         
             <div class="col-lg-3 col-md-6">
                 <div class="border-start border-4 border-info ps-3 h-100">
                     <h5 class="fw-bold text-dark mb-3">4. Rincian Biaya Latihan</h5>
@@ -112,7 +112,7 @@
     </div>
 </div>
 
-<!-- 4. Section Keunggulan Event (Strip Background Soft Light) -->
+
 <div class="w-100 py-5" style="background-color: #F8FAFC;">
     <div class="container py-4">
         <div class="text-center mb-5">
